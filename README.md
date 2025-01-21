@@ -1,31 +1,26 @@
 ## AlphaRetro: Evolutionary Retrosynthesis Planning
----
 
 The following code is executed in Linux system.
 
 ## Quickstart
----
 ```bash
 git clone https://github.com/ilog-ecnu/AlphaRetro
 cd AlphaRetro
 ```
 
 ## Single-step installation
----
 ```bash
 conda env create -f env_single.yml
 conda activate alpha_retro
 ```
 
 ## Multi-step installation
----
 ```bash
 conda env create -f env_multi.yml
 conda activate single_step
 ```
 
 ## Data and model preparation
----
 USPTO_50K: [Google Drive](https://drive.google.com/drive/folders/1-7Y_Yp-_0yz7J9zYzJV6vjZ-J0lx0X0q?usp=sharing)
 Pistachio: https://www.nextmovesoftware.com/pistachio.html
 Building block dataset: https://enamine.net/building-blocks
