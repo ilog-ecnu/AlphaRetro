@@ -1,4 +1,5 @@
 # AlphaRetro: Evolutionary Retrosynthesis Planning
+We present a tool to address the challenge of retrosynthesis, using an evolutionary algorithm to search multi-step retrosynthetic route. By incorporating a multi-branch encoding strategy and a general genetic operator, our approach significantly reduces search time while generating accurate and feasible routes, outperforming existing methods like Monte Carlo tree search.
 
 The following code is executed in Linux system.
 
