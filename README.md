@@ -1,4 +1,4 @@
-## AlphaRetro: Evolutionary Retrosynthesis Planning
+# AlphaRetro: Evolutionary Retrosynthesis Planning
 
 The following code is executed in Linux system.
 
@@ -21,11 +21,13 @@ conda activate single_step
 ```
 
 ## Data and model preparation
-USPTO_50K: [Google Drive](https://drive.google.com/drive/folders/1-7Y_Yp-_0yz7J9zYzJV6vjZ-J0lx0X0q?usp=sharing)
-Pistachio: https://www.nextmovesoftware.com/pistachio.html
-Building block dataset: https://enamine.net/building-blocks
+USPTO_50K: [Google Drive USPTO_50K](https://drive.google.com/drive/folders/1T57KdtR3Ti2I7Ldl3OXBEoN-2HF9G7wf?usp=sharing)
 
-All pre-trained model can be download from xxx
+Pistachio: [Nextmove Pistachio](https://www.nextmovesoftware.com/pistachio.html)
+
+Building block dataset: [Enamine Building Block](https://enamine.net/building-blocks)
+
+All pre-trained model can be download from [Google Drive model](https://drive.google.com/drive/folders/1TQ9rCcK9WImPxO3_yr5U8Z712IHmT1wG?usp=sharing)
 
 ## Single-step training
 Prepare the dataset in the format under `data/t5_data/50k_example.csv`, and then pass the path to the main function to start the training.
