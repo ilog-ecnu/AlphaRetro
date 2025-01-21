@@ -1,0 +1,7 @@
+data/USPTO_50K
+single_step/retro3d/ckpt/model_berberine.pt
+single_step/retro3d/ckpt/model_camptothecin.chkpt
+single_step/rsmiles/model/USPTO_full_PtoR.pt
+single_step/rxnfp/model.pth
+single_step/t5/saved
+single_step/retro3d

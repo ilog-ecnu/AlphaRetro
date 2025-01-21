@@ -1,0 +1,3 @@
+C[C@H](c1ccccc1)N1C[C@@](C)(C(=O)OC(C)(C)C)CC1=O>>10
+COc1sc(-c2ccccc2)nc1Br>>10
+O=C(CBr)c1ccc(N2CCOCC2)cc1>>10

@@ -1,0 +1,32 @@
+// AND/OR Tree
+digraph {
+	0 [label=OR]
+	0 -> 0
+	0 -> 1
+	1 [label=OR]
+	1 -> 1
+	1 -> 2
+	2 [label=AND]
+	2 -> 4
+	2 -> 5
+	3 [label=AND]
+	3 -> 3
+	3 -> 4
+	4 [label=AND]
+	4 -> 6
+	4 -> 7
+	5 [label=AND]
+	5 -> 9
+	5 -> 10
+	6 [label=OR]
+	6 -> 12
+	6 -> 13
+	7 [label=AND]
+	8 [label=OR]
+	9 [label=OR]
+	10 [label=OR]
+	11 [label=OR]
+	12 [label=OR]
+	13 [label=AND]
+	14 [label=AND]
+}

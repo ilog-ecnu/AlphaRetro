@@ -1,0 +1,60 @@
+# traget_smi
+DemoA:
+  step_len: 4
+  beam_size: 4
+  target_smi: NC(=O)c1cn(Cc2c(F)cccc2F)nn1
+  building_block_dataset: 'building_block'
+
+DemoB:
+  step_len: 3
+  beam_size: 3
+  target_smi: CN1CCN(c2ccc(-c3cccc(CN4CCOCC4)c3)cc2NC(=O)c2cnc(O)cc2C(F)(F)F)CC1
+  building_block_dataset: 'building_block'
+
+DemoC:
+  step_len: 4
+  beam_size: 4
+  target_smi: CC(C)(C)OC(=O)NCCNS(=O)(=O)c1ccc(NC(=S)NC2CCCC2)cc1
+  building_block_dataset: 'building_block'
+
+DemoD:
+  step_len: 6
+  beam_size: 5
+  target_smi: CC(C)(C)OC(=O)N1CCN(c2cc(NS(=O)(=O)c3ccccc3F)cc3c2OC2(CCC2)CC3)CC1
+  building_block_dataset: 'building_block'
+
+Camptothecin:
+  step_len: 10
+  beam_size: 7
+  target_smi: CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3ccccc3nc2-1
+  building_block_dataset: 'building_block_dataset.txt'
+
+Berberine:
+  step_len: 8
+  beam_size: 10
+  target_smi: COC1=C(OC)C2=C(C=C3C4=CC(OCO5)=C5C=C4CC[N+]3=C2)C=C1.[Cl-]
+  building_block_dataset: 'building_block_dataset.txt'
+
+Febuxostat:
+  step_len: 3
+  beam_size: 10
+  target_smi: CC1=C(C(=O)O)SC(C2=CC(C#N)=C(OCC(C)C)C=C2)=N1
+  building_block_dataset: 'building_block_dataset.txt'
+
+Salmeterol:
+  step_len: 4
+  beam_size: 10
+  target_smi: OCc1cc([C@@H](O)CNCCCCCCOCCCCc2ccccc2)ccc1O
+  building_block_dataset: 'building_block_dataset.txt'
+
+Allosteric:
+  step_len: 5
+  beam_size: 10
+  target_smi: NCCNS(=O)(=O)c1ccc(NC(=S)NC2CCCC2)cc1
+  building_block_dataset: 'building_block_dataset.txt'
+
+5-HT6:
+  step_len: 7
+  beam_size: 10
+  target_smi: O=S(NC1=CC(N2CCNCC2)=C3OC4(CCC3=C1)CCC4)(C5=CC=CC=C5F)=O
+  building_block_dataset: 'building_block_dataset.txt'
