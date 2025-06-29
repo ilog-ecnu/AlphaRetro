@@ -38,6 +38,14 @@ conda activate single_step
 python train.py
 ```
 
+Input/Output Format:
+
+Input: A SMILES string (e.g., NC(=O)c1cn(Cc2c(F)cccc2F)nn1)
+
+Output:
+    - top_k_precursors: List of top-$k$ predicted precursor SMILES([N-]=[N+]=NCc1c(F)cccc1F. The model returns a list of top-$k$ precursor candidates (e.g., [Fc1cccc(F)c1CBr.[N-]=[N+]=[N-],CS(=O)(=O)OCc1c(F)cccc1F.[N-]=[N+]=[N-], ..., Fc1cccc(F)c1CBr.[N-]=[N+]=N])
+    - scores: List of associated confidence scores for each prediction (e.g., [0.18, 0.12, ..., 0.08])
+
 ## Multi-step searching
 The single-step model and reaction-type model, after being trained or downloaded, are mounted via the server's `serve.py` file and then accessed through the client.
 
